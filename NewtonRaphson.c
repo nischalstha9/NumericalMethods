@@ -6,7 +6,7 @@ float f(float x)
 }
 float df(float x)
 {
-    return log10(x) + 0.43429;
+    return log10(x) + 0.43429; // ask how to get this derivative constant
 }
 int main()
 {

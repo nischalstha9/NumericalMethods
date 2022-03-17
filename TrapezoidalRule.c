@@ -30,15 +30,8 @@ void main()
     se = 0;
     for (i = 1; i < n; i++)
     {
-        if (i % 2 == 1)
-        {
-            so = so + y[i];
-        }
-        else
-        {
-            se = se + y[i];
-        }
+        i % 2 == 1 ? (so = so + y[i]) : (se = se + y[i]);
     }
     ans = h / 3 * (y[0] + y[n] + 4 * so + 2 * se);
-    printf("\nfinal integration is %f", ans);
+    printf("\nfinal integration is %f\n", ans);
 }

@@ -9,10 +9,8 @@ void main()
 {
     float a, b, c, d, e;
     int count = 1, n;
-    printf("\n\nEnter the values of a and b:\n"); //(a,b) must contain the solution.
-    scanf("%f%f", &a, &b);
-    printf("Enter the values of allowed error and maximun number of iterations:\n");
-    scanf("%f %d", &e, &n);
+    printf("\n\nEnter the values of a, b, allowed error and maximun number of iterations:\n"); //(a,b) must contain the solution.
+    scanf("%f %f %f %d", &a, &b, &e, &n);
     do
     {
         if (f(a) == f(b))

@@ -9,7 +9,7 @@ void main()
 {
     float a, b, x, y, h, t, k;
     printf("\nEnter x0,y0,h,xn: ");
-    scanf("%f%f%f%f", &a, &b, &h, &t);
+    scanf("%f %f %f %f", &a, &b, &h, &t);
     x = a;
     y = b;
     printf("\n x\t y\n");
